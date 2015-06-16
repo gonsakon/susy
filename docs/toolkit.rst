@@ -887,7 +887,7 @@ to the same element.
   .example2 { @include pad(1, 3); }
 
 When they share identical context,
-you can pass ``pre`` and ``post`` spans
+you can pass ``prefix`` and ``suffix`` spans
 in the same argument.
 This is often the case,
 and saves you from repeating yourself.
